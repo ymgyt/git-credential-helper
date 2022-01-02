@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 anyhow = "*"
 clap = { version = "3", features = ["std","color", "suggestions", "derive", "cargo", "wrap_help", "env"], default_features = false }
+nom = { version = "7.1", features = ["std"], default_features = false }
